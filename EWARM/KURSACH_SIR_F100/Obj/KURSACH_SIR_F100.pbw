@@ -96287,20 +96287,6 @@
     "ID": "c:@F@HAL_Init",
     "What": "Function",
     "defdec": "Dec",
-    "display": "int HAL_Init(void)",
-    "location": {
-      "column": "19",
-      "line": "298",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal.h"
-    },
-    "name": "HAL_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@HAL_Init",
-    "What": "Function",
-    "defdec": "Dec",
     "display": "HAL_StatusTypeDef HAL_Init(void)",
     "location": {
       "column": "19",
@@ -96329,20 +96315,6 @@
     "ID": "c:@F@HAL_DeInit",
     "What": "Function",
     "defdec": "Dec",
-    "display": "int HAL_DeInit(void)",
-    "location": {
-      "column": "19",
-      "line": "299",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal.h"
-    },
-    "name": "HAL_DeInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@HAL_DeInit",
-    "What": "Function",
-    "defdec": "Dec",
     "display": "HAL_StatusTypeDef HAL_DeInit(void)",
     "location": {
       "column": "19",
@@ -96441,20 +96413,6 @@
     "ID": "c:@F@HAL_InitTick",
     "What": "Function",
     "defdec": "Dec",
-    "display": "int HAL_InitTick(int)",
-    "location": {
-      "column": "19",
-      "line": "302",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal.h"
-    },
-    "name": "HAL_InitTick",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@HAL_InitTick",
-    "What": "Function",
-    "defdec": "Dec",
     "display": "HAL_StatusTypeDef HAL_InitTick(uint32_t)",
     "location": {
       "column": "19",
@@ -96511,20 +96469,6 @@
     "ID": "c:@F@HAL_Delay",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void HAL_Delay(int)",
-    "location": {
-      "column": "6",
-      "line": "312",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal.h"
-    },
-    "name": "HAL_Delay",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@HAL_Delay",
-    "What": "Function",
-    "defdec": "Dec",
     "display": "void HAL_Delay(uint32_t)",
     "location": {
       "column": "6",
@@ -96553,20 +96497,6 @@
     "ID": "c:@F@HAL_GetTick",
     "What": "Function",
     "defdec": "Dec",
-    "display": "int HAL_GetTick(void)",
-    "location": {
-      "column": "10",
-      "line": "313",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal.h"
-    },
-    "name": "HAL_GetTick",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@HAL_GetTick",
-    "What": "Function",
-    "defdec": "Dec",
     "display": "uint32_t HAL_GetTick(void)",
     "location": {
       "column": "10",
@@ -96595,20 +96525,6 @@
     "ID": "c:@F@HAL_GetTickPrio",
     "What": "Function",
     "defdec": "Dec",
-    "display": "int HAL_GetTickPrio(void)",
-    "location": {
-      "column": "10",
-      "line": "314",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal.h"
-    },
-    "name": "HAL_GetTickPrio",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@HAL_GetTickPrio",
-    "What": "Function",
-    "defdec": "Dec",
     "display": "uint32_t HAL_GetTickPrio(void)",
     "location": {
       "column": "10",
@@ -96637,20 +96553,6 @@
     "ID": "c:@F@HAL_SetTickFreq",
     "What": "Function",
     "defdec": "Dec",
-    "display": "int HAL_SetTickFreq(HAL_TickFreqTypeDef)",
-    "location": {
-      "column": "19",
-      "line": "315",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal.h"
-    },
-    "name": "HAL_SetTickFreq",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@HAL_SetTickFreq",
-    "What": "Function",
-    "defdec": "Dec",
     "display": "HAL_StatusTypeDef HAL_SetTickFreq(HAL_TickFreqTypeDef)",
     "location": {
       "column": "19",
@@ -96763,20 +96665,6 @@
     "ID": "c:@F@HAL_GetHalVersion",
     "What": "Function",
     "defdec": "Dec",
-    "display": "int HAL_GetHalVersion(void)",
-    "location": {
-      "column": "10",
-      "line": "319",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal.h"
-    },
-    "name": "HAL_GetHalVersion",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@HAL_GetHalVersion",
-    "What": "Function",
-    "defdec": "Dec",
     "display": "uint32_t HAL_GetHalVersion(void)",
     "location": {
       "column": "10",
@@ -96805,20 +96693,6 @@
     "ID": "c:@F@HAL_GetREVID",
     "What": "Function",
     "defdec": "Dec",
-    "display": "int HAL_GetREVID(void)",
-    "location": {
-      "column": "10",
-      "line": "320",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal.h"
-    },
-    "name": "HAL_GetREVID",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@HAL_GetREVID",
-    "What": "Function",
-    "defdec": "Dec",
     "display": "uint32_t HAL_GetREVID(void)",
     "location": {
       "column": "10",
@@ -96847,20 +96721,6 @@
     "ID": "c:@F@HAL_GetDEVID",
     "What": "Function",
     "defdec": "Dec",
-    "display": "int HAL_GetDEVID(void)",
-    "location": {
-      "column": "10",
-      "line": "321",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal.h"
-    },
-    "name": "HAL_GetDEVID",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@HAL_GetDEVID",
-    "What": "Function",
-    "defdec": "Dec",
     "display": "uint32_t HAL_GetDEVID(void)",
     "location": {
       "column": "10",
@@ -97036,20 +96896,6 @@
       "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal.h"
     },
     "name": "HAL_DBGMCU_DisableDBGStandbyMode",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@HAL_GetUID",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void HAL_GetUID(int *)",
-    "location": {
-      "column": "6",
-      "line": "328",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal.h"
-    },
-    "name": "HAL_GetUID",
     "origin": "user_include",
     "scope": null
   },
@@ -107700,62 +107546,6 @@
       }
     ],
     "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f1xx_ll_rcc.h@4087@macro@HSE_VALUE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "HSE_VALUE",
-    "location": {
-      "column": "9",
-      "line": "111",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_ll_rcc.h"
-    },
-    "name": "HSE_VALUE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f1xx_ll_rcc.h@4214@macro@HSI_VALUE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "HSI_VALUE",
-    "location": {
-      "column": "9",
-      "line": "115",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_ll_rcc.h"
-    },
-    "name": "HSI_VALUE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f1xx_ll_rcc.h@4341@macro@LSE_VALUE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LSE_VALUE",
-    "location": {
-      "column": "9",
-      "line": "119",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_ll_rcc.h"
-    },
-    "name": "LSE_VALUE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f1xx_ll_rcc.h@4468@macro@LSI_VALUE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LSI_VALUE",
-    "location": {
-      "column": "9",
-      "line": "123",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_ll_rcc.h"
-    },
-    "name": "LSI_VALUE",
     "origin": "user_include",
     "scope": null
   },
@@ -125796,34 +125586,6 @@
     "scope": null
   },
   {
-    "ID": "c:main.h@2397@macro@D0_Pin",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "D0_Pin",
-    "location": {
-      "column": "9",
-      "line": "75",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Inc\\main.h"
-    },
-    "name": "D0_Pin",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:main.h@2424@macro@D0_GPIO_Port",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "D0_GPIO_Port",
-    "location": {
-      "column": "9",
-      "line": "76",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Inc\\main.h"
-    },
-    "name": "D0_GPIO_Port",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:main.h@2424@macro@D4_GPIO_Port",
     "What": "MacroDef",
     "defdec": "Def",
@@ -125838,20 +125600,6 @@
     "scope": null
   },
   {
-    "ID": "c:main.h@2452@macro@D1_Pin",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "D1_Pin",
-    "location": {
-      "column": "9",
-      "line": "77",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Inc\\main.h"
-    },
-    "name": "D1_Pin",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:main.h@2452@macro@D5_Pin",
     "What": "MacroDef",
     "defdec": "Def",
@@ -125862,20 +125610,6 @@
       "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Inc\\main.h"
     },
     "name": "D5_Pin",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:main.h@2479@macro@D1_GPIO_Port",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "D1_GPIO_Port",
-    "location": {
-      "column": "9",
-      "line": "78",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Inc\\main.h"
-    },
-    "name": "D1_GPIO_Port",
     "origin": "user_include",
     "scope": null
   },
@@ -125908,34 +125642,6 @@
     "scope": null
   },
   {
-    "ID": "c:main.h@2507@macro@D2_Pin",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "D2_Pin",
-    "location": {
-      "column": "9",
-      "line": "79",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Inc\\main.h"
-    },
-    "name": "D2_Pin",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:main.h@2534@macro@D2_GPIO_Port",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "D2_GPIO_Port",
-    "location": {
-      "column": "9",
-      "line": "80",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Inc\\main.h"
-    },
-    "name": "D2_GPIO_Port",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:main.h@2534@macro@D6_GPIO_Port",
     "What": "MacroDef",
     "defdec": "Def",
@@ -125964,20 +125670,6 @@
     "scope": null
   },
   {
-    "ID": "c:main.h@2562@macro@D3_Pin",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "D3_Pin",
-    "location": {
-      "column": "9",
-      "line": "81",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Inc\\main.h"
-    },
-    "name": "D3_Pin",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:main.h@2589@macro@D7_GPIO_Port",
     "What": "MacroDef",
     "defdec": "Def",
@@ -125988,20 +125680,6 @@
       "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Inc\\main.h"
     },
     "name": "D7_GPIO_Port",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:main.h@2589@macro@D3_GPIO_Port",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "D3_GPIO_Port",
-    "location": {
-      "column": "9",
-      "line": "82",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Inc\\main.h"
-    },
-    "name": "D3_GPIO_Port",
     "origin": "user_include",
     "scope": null
   },
@@ -126086,34 +125764,6 @@
       "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Inc\\main.h"
     },
     "name": "BUTTON3_GPIO_Port",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:main.h@2815@macro@BUTTON4_Pin",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BUTTON4_Pin",
-    "location": {
-      "column": "9",
-      "line": "89",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Inc\\main.h"
-    },
-    "name": "BUTTON4_Pin",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:main.h@2848@macro@BUTTON4_GPIO_Port",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BUTTON4_GPIO_Port",
-    "location": {
-      "column": "9",
-      "line": "90",
-      "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Inc\\main.h"
-    },
-    "name": "BUTTON4_GPIO_Port",
     "origin": "user_include",
     "scope": null
   },
@@ -127782,7 +127432,7 @@
     "display": "void TIM3_IRQHandler(void)",
     "location": {
       "column": "6",
-      "line": "277",
+      "line": "279",
       "path": "C:\\Users\\Morozov\\Documents\\KURSACH_SIR_F100\\Src\\stm32f1xx_it.c"
     },
     "name": "TIM3_IRQHandler",

@@ -262,6 +262,8 @@ void TIM2_IRQHandler(void)
         T2_min=MIN;
         T2_sec=SEC;
         T2_msec=MSEC;
+        Enable_Player1=1;
+        Enable_Player2=1;
       }
     }
   }
