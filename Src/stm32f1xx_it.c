@@ -207,25 +207,23 @@ void TIM1_UP_TIM16_IRQHandler(void)
   /* USER CODE BEGIN TIM1_UP_TIM16_IRQn 0 */
   LL_TIM_ClearFlag_UPDATE(TIM1);
   
-  lcdGoto(0,0);
+  lcdGoto(1,0);
   clockTime(T1_min/10);
   clockTime(T1_min%10);
   lcdPuts(":");
   clockTime(T1_sec/10);
   clockTime(T1_sec%10);
   lcdPuts(":");
-  clockTime(T1_msec/10);
-  clockTime(T1_msec%10);
+  clockTime(T1_msec);
   
-  //  lcdGoto(0,8);
-  clockTime(T1_min/10);
-  clockTime(T1_min%10);
+    lcdGoto(1,9);
+  clockTime(T2_min/10);
+  clockTime(T2_min%10);
   lcdPuts(":");
-  clockTime(T1_sec/10);
-  clockTime(T1_sec%10);
+  clockTime(T2_sec/10);
+  clockTime(T2_sec%10);
   lcdPuts(":");
-  clockTime(T1_msec/10);
-  clockTime(T1_msec%10);
+  clockTime(T2_msec);
   
   /* USER CODE END TIM1_UP_TIM16_IRQn 0 */
   
@@ -243,13 +241,16 @@ void TIM2_IRQHandler(void)
   LL_TIM_ClearFlag_UPDATE(TIM2);
   if (HAL_GPIO_ReadPin(GPIOKEY,BUTTON_1)==0)
   {
-    Timer=Timer1;
+    if (Enable_Player1==1)
+      Timer=Timer1;
+    
   }
   else
   {
     if (HAL_GPIO_ReadPin(GPIOKEY,BUTTON_2)==0)
     {
-      Timer=Timer2;
+      if (Enable_Player2==1)
+        Timer=Timer2;
     }
     else
     {
@@ -281,49 +282,76 @@ void TIM3_IRQHandler(void)
   /* USER CODE BEGIN TIM3_IRQn 0 */
   LL_TIM_ClearFlag_UPDATE(TIM3);
   
+  LL_TIM_ClearFlag_UPDATE(TIM3);
+  
   switch(Timer)
   {
   case Timer1:
     if (Enable_Player1==1)
     {
-      if(--T1_msec==0)
+      if(T1_msec==0)
       {
-        T1_msec=100;
-        
-        if(--T1_sec==0)
-        {
-          T1_sec=60;
-          if(--T1_min==0)
-          {
-            if(T1_min==0&&T1_sec==0&&T1_msec==0)
+        if(T1_min==0&&T1_sec==0&&T1_msec==0)
             {
+              
               Enable_Player1=0;
+              Timer=Timer2;
+              break;
+
             }
-          }
+        T1_msec=9;
+        
+        if(T1_sec==0)
+        {
+          T1_sec=59;
+         
+            T1_min--;
+          
         }
+        else
+        {
+          T1_sec--;
+        }
+      }
+      else
+      {
+        T1_msec--;
       }
     }
     break;
   case Timer2:
     if (Enable_Player2==1)
     {
-      if(--T2_msec==0)
+      if(T2_msec==0)
       {
-        T2_msec=100;
-        
-        if(--T2_sec==0)
-        {
-          T2_sec=60;
-          if(--T2_min==0)
-          {
-            if(T2_min==0&&T2_sec==0&&T2_msec==0)
+        if(T2_min==0&&T2_sec==0&&T2_msec==0)
             {
+              
               Enable_Player2=0;
+              Timer=Timer1;
+              break;
+
             }
-          }
+        T2_msec=9;
+        
+        if(T2_sec==0)
+        {
+          T2_sec=59;
+         
+            T2_min--;
+          
+        }
+        else
+        {
+          T2_sec--;
         }
       }
+      else
+      {
+        T2_msec--;
+      }
     }
+    break;
     break;
   }
   /* USER CODE END TIM3_IRQn 0 */
